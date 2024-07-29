@@ -1,6 +1,6 @@
 <script setup>
 const props = defineProps({
-  resultado: [Number, String] // Adicione os tipos esperados para a prop
+  resultado: [Number, String] 
 });
 </script>
 
@@ -9,7 +9,7 @@ const props = defineProps({
     <div class="row">
       <div class="col">
         <div class="mt-3">
-          Resultado: {{ props.resultado }}
+          Resultado: {{ resultado }} 
         </div>
       </div>
     </div>
